@@ -65,6 +65,7 @@ class TripDetailScreen extends StatelessWidget {
               ListView.builder(
                 itemCount: selectedTrip.activities.length,
                 itemBuilder: (ctx, index) => Card(
+                  color: Colors.blue,
                   elevation: 0.3,
                   child: Padding(
                     padding:

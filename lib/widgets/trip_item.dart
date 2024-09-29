@@ -134,7 +134,7 @@ class TripItem extends StatelessWidget {
                     children: [
                       Icon(
                         Icons.today,
-                        color: Colors.amber,
+                        color: Colors.blue,
                       ),
                       SizedBox(
                         width: 6,
@@ -152,7 +152,7 @@ class TripItem extends StatelessWidget {
                     children: [
                       Icon(
                         Icons.location_on,
-                        color: Colors.amber,
+                        color: Colors.blue,
                       ),
                       SizedBox(
                         width: 6,
@@ -169,7 +169,7 @@ class TripItem extends StatelessWidget {
                     children: [
                       Icon(
                         Icons.family_restroom,
-                        color: Colors.amber,
+                        color: Colors.blue,
                       ),
                       SizedBox(
                         width: 6,
