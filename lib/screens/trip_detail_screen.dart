@@ -70,7 +70,12 @@ class TripDetailScreen extends StatelessWidget {
                   child: Padding(
                     padding:
                         const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                    child: Text(selectedTrip.activities[index]),
+                    child: Text(
+                      selectedTrip.activities[index],
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
                   ),
                 ),
               ),
@@ -88,7 +93,7 @@ class TripDetailScreen extends StatelessWidget {
                       leading: CircleAvatar(
                         backgroundColor: Colors.blue,
                         child: Text(
-                          'Day${index + 1}',
+                          '${index + 1}',
                           style: TextStyle(
                             color: Colors.white,
                           ),

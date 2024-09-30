@@ -6,7 +6,7 @@ class TabsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // عدد التبويبات
+      length: 2,
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Tabs Example'),

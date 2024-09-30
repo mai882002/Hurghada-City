@@ -142,8 +142,7 @@ class TripItem extends StatelessWidget {
                       Text(
                         '$duration days',
                         style: TextStyle(
-                          fontFamily:
-                              'Italic', // تأكد من إضافة هذا الخط أيضًا في المشروع
+                          fontFamily: 'Italic',
                         ),
                       ),
                     ],
